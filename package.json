@@ -1,10 +1,10 @@
 {
-  "name": "gusto-coffee",
-  "description": "a really cool app",
-  "version": "1.0.0",
-  "engines": {
-    "yarn": "1.x"
-  },
+    "name": "gusto-coffee",
+    "description": "a really cool app",
+    "version": "1.0.0",
+    "engines": {
+        "yarn": "1.x"
+    },
     "private": true,
     "scripts": {
         "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
@@ -29,5 +29,8 @@
         "sass-loader": "^7.1.0",
         "vue": "^2.5.17",
         "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "sw-precache-webpack-plugin": "^0.11.5"
     }
 }
