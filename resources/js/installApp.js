@@ -19,6 +19,7 @@ function showAddToHomeScreen() {
 }
 
 function addToHomeScreen() {
+  console.log('clicked');
   var installBtn = document.querySelector(".ad2hs-prompt");  // hide our user interface that shows our A2HS button
   installBtn.style.display = 'none';  // Show the prompt
   deferredPrompt.prompt();  // Wait for the user to respond to the prompt
