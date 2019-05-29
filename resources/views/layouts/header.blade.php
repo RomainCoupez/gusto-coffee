@@ -6,6 +6,7 @@
     <title>@yield('title')</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet"></script>
 </head>
 <body>
   <h1>Header</h1>
