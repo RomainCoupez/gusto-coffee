@@ -1,6 +1,7 @@
 import Home from './components/Home';
 import About from './components/About';
 import NotFound from './components/NotFound';
+import ExempleApi from './components/ExempleApi';
 // let LazyloaderExemple = ()=> import('./components/NotFound') If i need to lazyload a component
 
 export default {
@@ -18,6 +19,10 @@ export default {
       path: '/about',
       component: About,
       name: 'about'
+    },
+    {
+      path: '/exemple-api',
+      component: ExempleApi
     }
   ]
 };

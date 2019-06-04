@@ -14,11 +14,16 @@
     <nav class="bg-dark">
       <router-link to="/">Home</router-link>
       <router-link to="about">About</router-link>
+      <router-link to="exemple-api">ExempleApi</router-link>
     </nav>
-    <router-view></router-view>
-
+    <div class="container py-5">
+      <router-view></router-view>
+    </div>
   </div>
-<p>Footer</p>
+<footer>
+  Footer
+</footer>
+
 {{-- <script type="text/javascript" src="{{ asset('service-worker.js') }}"></script> --}}
 <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
 </body>
