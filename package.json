@@ -19,7 +19,7 @@
     },
     "devDependencies": {
         "axios": "^0.18",
-        "bootstrap": "^4.1.0",
+        "bootstrap": "^4.3.1",
         "cross-env": "^5.1",
         "jquery": "^3.2",
         "laravel-mix": "^4.0.7",
@@ -28,10 +28,14 @@
         "resolve-url-loader": "^2.3.1",
         "sass": "^1.15.2",
         "sass-loader": "^7.1.0",
-        "vue": "^2.5.17",
+        "vue": "^2.6.10",
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "sw-precache-webpack-plugin": "^0.11.5"
+        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+        "bootstrap-vue": "^2.0.0-rc.22",
+        "sw-precache-webpack-plugin": "^0.11.5",
+        "vue-router": "^3.0.6",
+        "vuetify": "^1.5.14"
     }
 }
