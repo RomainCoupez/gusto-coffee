@@ -13,20 +13,20 @@
 <script>
 import Firebase from 'firebase'
 export default {
-  data() {
+  data () {
     return {
       email: '',
       password: ''
     }
   },
   methods: {
-    login() {
+    login () {
       Firebase.auth().signInWithEmailAndPassword(this.email, this.password).then(
-        function(user){
+        function (user) {
           alert('your account has been created')
         },
-        function(err){
-          alert('Ooops... ' + err.message )
+        function (err) {
+          alert('Ooops... ' + err.message)
         }
       )
     }
