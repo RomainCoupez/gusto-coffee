@@ -30,6 +30,24 @@ export default {
           alert('Ooops... ' + err.message)
         }
       )
+    },
+    googleSocialLogin() {
+      const provider = new Firebase.auth.GoogleAuthProvider();
+
+      Firebase.auth().signInWithPopup(provider).then((result) => {
+        this.$router.replace('home');
+      }).catch((err) => {
+        alert('Oops. ' + err.message)
+      });
+    },
+    facebookSocialLogin() {
+      const provider = new Firebase.auth.FacebookAuthProvider();
+
+      Firebase.auth().signInWithPopup(provider).then((result) =>{
+        this.$router.replace('home');
+      }).catch((err) => {
+        alert('Oops. ' + err.message)
+      });
     }
   }
 }
