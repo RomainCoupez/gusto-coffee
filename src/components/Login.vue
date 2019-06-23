@@ -24,19 +24,6 @@ export default {
     };
   },
   methods: {
-    login() {
-      firebase
-        .auth()
-        .signInWithEmailAndPassword(this.email, this.password)
-        .then(
-          function(user) {
-            this.$router.replace("/category");
-            alert("your account has been created");
-          },
-          function(err) {
-            alert("Ooops... " + err.message);
-          }
-        );
     login () {
       firebase.auth().signInWithEmailAndPassword(this.email, this.password).then(
         function (user) {

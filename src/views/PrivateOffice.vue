@@ -24,7 +24,8 @@
 						<div class="card-body">
 							<h3 class="line-up">Bureau privé</h3>
 							<p class="card-text">Des bureaux fermés et verrouillables qui peuvent accueillir des équipes de toutes tailles. Prêts à l'emploi, aménagés avec des bureaux, des chaises et des armoires de classement.</p>
-							<p class="card-text"><strong>Idéal pour :</strong>
+							<p class="card-text">
+								<strong>Idéal pour :</strong>
 								<ul>
 									<li>Start-up</li>
 									<li>petites entreprises</li>

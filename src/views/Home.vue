@@ -56,7 +56,7 @@
   <section id="presentation">
     <div class="row featurette justify-content-center">
       <div class="col-md-3">
-        <img src="../assets/img/presentation.jpeg" />
+        <img src="../assets/img/presentation.jpeg" class="img-fluid"/>
       </div>
       <div class="col-md-5 align-self-center padding">
         <h2 class="featurette-heading">Réserver le <span class="text-orange">meilleur</span> espace de travail</h2>
@@ -69,7 +69,7 @@
     <div class="row justify-content-center">
       <div class="col-md-3">
         <div class="card mb-4 shadow-sm">
-          <img src="../assets/img/espaces-travail.jpeg"  alt="">
+          <img class="img-fluid" src="../assets/img/espaces-travail.jpeg"  alt="">
           <div class="card-body">
             <h3 class="line-up">Espace de travail partagé</h3>
             <p class="card-text">Abonnement à un poste de travail avec accès à des salles de conférence et des équipements Premium.</p>
@@ -79,7 +79,7 @@
       </div>
       <div class="col-md-3">
         <div class="card mb-4 shadow-sm">
-          <img src="../assets/img/espaces-bureaux.jpeg"  alt="">
+          <img class="img-fluid" src="../assets/img/espaces-bureaux.jpeg"  alt="">
           <div class="card-body">
             <h3 class="line-up">Bureaux privés</h3>
             <p class="card-text">Des espaces personnalisés conçus spécialement pour votre prochain siège au bureau satellite.</p>
@@ -89,7 +89,7 @@
       </div>
       <div class="col-md-3">
         <div class="card mb-4 shadow-sm">
-          <img src="../assets/img/cafeteria.jpeg" alt="">
+          <img class="img-fluid" src="../assets/img/cafeteria.jpeg" alt="">
           <div class="card-body">
             <h3 class="line-up">Caféteria</h3>
             <p class="card-text">Profitez d'un espace de détente icroyable pour déconnectez du monde du travail et savourer un café onctueux.</p>
