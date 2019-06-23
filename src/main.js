@@ -4,7 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import { firestorePlugin } from 'vuefire'
 import router from './router'
+import BootstrapVue from 'bootstrap-vue'
+import './styles/app.scss'
 
+Vue.use(BootstrapVue)
 Vue.use(firestorePlugin)
 
 Vue.config.productionTip = false
