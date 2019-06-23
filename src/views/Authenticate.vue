@@ -7,15 +7,14 @@
 </template>
 
 <script>
-import Login from '@/components/Login.vue'
-import Register from '@/components/Register.vue'
+import Login from "@/components/Login.vue";
+import Register from "@/components/Register.vue";
 export default {
   components: {
     Login,
     Register
   }
-}
+};
 </script>
 
-<style lang="css" scoped>
-</style>
+<style lang="css" scoped></style>

@@ -1,25 +1,42 @@
 <template>
   <div class="">
     <h1>Login</h1>
-      <form>
-        <input type="text" name="email" placeholder="Email" v-model="email">
-        <input type="password" name="password" placeholder="Password" v-model="password">
-        <button type="button" name="button" @click="login()">Je m'inscris</button>
-      </form>
-
+    <form>
+      <input type="text" name="email" placeholder="Email" v-model="email" />
+      <input
+        type="password"
+        name="password"
+        placeholder="Password"
+        v-model="password"
+      />
+      <button type="button" name="button" @click="login()">Je m'inscris</button>
+    </form>
   </div>
 </template>
 
 <script>
-import firebase from 'firebase'
+import firebase from "firebase";
 export default {
-  data () {
+  data() {
     return {
-      email: '',
-      password: ''
-    }
+      email: "",
+      password: ""
+    };
   },
   methods: {
+    login() {
+      firebase
+        .auth()
+        .signInWithEmailAndPassword(this.email, this.password)
+        .then(
+          function(user) {
+            this.$router.replace("/category");
+            alert("your account has been created");
+          },
+          function(err) {
+            alert("Ooops... " + err.message);
+          }
+        );
     login () {
       firebase.auth().signInWithEmailAndPassword(this.email, this.password).then(
         function (user) {
@@ -50,8 +67,7 @@ export default {
       });
     }
   }
-}
+};
 </script>
 
-<style lang="css" scoped>
-</style>
+<style lang="css" scoped></style>

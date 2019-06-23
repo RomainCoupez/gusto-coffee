@@ -1,5 +1,5 @@
-import firebase from 'firebase'
+import firebase from "firebase";
 
 export const db = firebase
-  .initializeApp({ projectId: 'gustocoffee-1b9e4' })
-  .firestore()
+  .initializeApp({ projectId: "gustocoffee-1b9e4" })
+  .firestore();

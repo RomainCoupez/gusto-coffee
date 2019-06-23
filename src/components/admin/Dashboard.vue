@@ -1,14 +1,12 @@
 <template>
-<div class="">
-  <h1>Admin dashboard</h1>
-  <p>Big stuff happens here</p>
-</div>
+  <div class="">
+    <h1>Admin dashboard</h1>
+    <p>Big stuff happens here</p>
+  </div>
 </template>
 
 <script>
-export default {
-}
+export default {};
 </script>
 
-<style lang="css" scoped>
-</style>
+<style lang="css" scoped></style>
