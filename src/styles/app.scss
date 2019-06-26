@@ -1,2 +1,20 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
+@import 'src/styles/home.scss';
+@import 'src/styles/about.scss';
+@import 'src/styles/navbar.scss';
+@import 'src/styles/concept.scss';
+
+
+:root {
+  --Color-Jaune: #FFDC80;
+  --Color-Orange: #F3572A;
+  --Color-Blanc: #F2F3F7;
+  --Color-Bleu-Clair: #3156DB;
+  --Color-Bleu: #0037B3;
+  --Color-Gris: #A7A8C2;
+}
+
+.txt-orange {
+  color: var(--Color-Orange);
+}

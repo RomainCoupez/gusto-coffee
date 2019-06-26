@@ -1,0 +1,74 @@
+.home {
+  #full-image-home, #presentation, #concept {
+    height: 100vh;
+  }
+
+  .padding {
+    padding: 7em;
+  }
+
+  .bkg-white {
+    background-color: var(--Color-Blanc);
+  }
+
+  .btn-orange {
+    background-color: var(--Color-Orange);
+    color: white;
+  }
+
+  .bkg-homepage {
+    background-image: url('../../src/assets/img/homepage.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+
+/* NAVBAR */
+.snip1555 li {
+  position: relative;
+}
+
+.snip1555 li a {
+  text-decoration: none;
+}
+
+.snip1555 li:before,
+.snip1555 li:after {
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  height: 2px;
+  width: 35%;
+  background-color: var(--Color-Bleu-Clair);
+  position: absolute;
+  content: '';
+  opacity: 0;
+}
+
+.snip1555 li:before {
+  top: 0;
+  left: 0;
+}
+
+.snip1555 li:after {
+  bottom: 0;
+  right: 0;
+}
+
+.snip1555 li:hover:before,
+.snip1555 li.hover:before,
+.snip1555 li:hover:after,
+.snip1555 li.hover:after {
+  opacity: 1;
+}
+
+.snip1555 li:hover:before,
+.snip1555 li.hover:before {
+  left: 65%;
+}
+
+.snip1555 li:hover:after,
+.snip1555 li.hover:after {
+  right: 65%;
+}

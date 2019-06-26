@@ -1,0 +1,17 @@
+
+.navbar a {
+  color: var(--Color-Orange);
+}
+
+.navbar {
+  box-shadow: 0px -1px 6px var(--Color-Orange);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+}
+
+.navbar-brand {
+  width: 25%;
+}
