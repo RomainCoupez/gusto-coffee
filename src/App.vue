@@ -1,18 +1,26 @@
 <template>
   <div id="app">
+    <!-- Navbar -->
     <Navbar></Navbar>
-    <!-- <img src="./assets/logo.png"> -->
+
+    <!-- Content -->
     <router-view/>
+
+    <!-- Footer -->
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar"
+import Footer from "@/components/Footer"
+
 export default {
   name: "App",
   components: {
-    Navbar
-  }
+    Navbar,
+    Footer
+  },
 };
 </script>
 

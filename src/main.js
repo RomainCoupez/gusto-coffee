@@ -7,6 +7,7 @@ import router from "./router";
 import BootstrapVue from "bootstrap-vue";
 import "./styles/app.scss";
 
+
 Vue.use(BootstrapVue);
 Vue.use(firestorePlugin);
 

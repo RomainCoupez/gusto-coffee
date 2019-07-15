@@ -7,6 +7,9 @@ import Category from '@/components/Category'
 import Concept from '@/views/Concept'
 import PrivateOffice from '@/views/PrivateOffice'
 import About from '@/views/About'
+import News from '@/views/News'
+import Booking from '@/components/Booking'
+import Loggia from '@/components/booking/a-partager/Loggia'
 
 Vue.use(Router);
 
@@ -32,18 +35,28 @@ export default new Router({
       name: "Concept",
       component: Concept
     },
-    /*{
+    {
       path: "/news",
       name: "News",
       component: News
-    },*/
-    /*{
+    },
+    {
       path: "/booking",
       name: "Booking",
       component: Booking
-    },*/
+    },
     {
-      path: "/authenticate",
+      path: "/log",
+      name: "Authenticate",
+      component: Authenticate
+    },
+    {
+      path: "/booking/a-partager/loggia",
+      name: "Loggia",
+      component: Loggia
+    },
+    {
+      path: "/register",
       name: "Authenticate",
       component: Authenticate
     },

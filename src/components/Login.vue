@@ -27,8 +27,8 @@ export default {
     login () {
       firebase.auth().signInWithEmailAndPassword(this.email, this.password).then(
         function (user) {
-          this.$router.replace('/category')
-          alert('your account has been created')
+          //this.$router.replace('/category')
+          alert('Votre compte est bien logguer')
         },
         function (err) {
           alert('Ooops... ' + err.message)
@@ -39,7 +39,8 @@ export default {
       const provider = new Firebase.auth.GoogleAuthProvider();
 
       Firebase.auth().signInWithPopup(provider).then((result) => {
-        this.$router.replace('home');
+        //this.$router.replace('home');
+        alert('Votre compte a été créé avec googleSocialLogin')
       }).catch((err) => {
         alert('Oops. ' + err.message)
       });
@@ -48,7 +49,8 @@ export default {
       const provider = new Firebase.auth.FacebookAuthProvider();
 
       Firebase.auth().signInWithPopup(provider).then((result) =>{
-        this.$router.replace('home');
+        //this.$router.replace('home');
+        alert('Votre compte a été créé avec facebookSocialLogin')
       }).catch((err) => {
         alert('Oops. ' + err.message)
       });

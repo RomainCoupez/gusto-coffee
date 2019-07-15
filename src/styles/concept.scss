@@ -7,6 +7,10 @@
     height: 50vh;
   }
 
+  .bkg-white  {
+    background-color: var(--Color-Blanc)
+  }
+
   .kingSize {
     font-size: 5em !important;
     color: white;
@@ -21,14 +25,8 @@
     color: white
   }
 
-
-
-
-
-
-
-
-
-
+  .pdt-block {
+    padding-top: 4em;
+  }
 
 }

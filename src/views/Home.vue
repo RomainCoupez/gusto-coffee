@@ -35,7 +35,7 @@
       </div>
     </div>
 
-    <section id="marketing" class="d-flex bkg-white">
+    <section id="marketing" class="d-flex bkg-white border-top-hr">
       <div class="row justify-content-center padding w-100">
         <div class="col text-left">
           <p><img src="../assets/img/marketing-boost.svg" alt="Boostez votre productivité"/></p>
@@ -55,7 +55,7 @@
       </div>
     </section>
 
-    <section id="presentation" class="d-flex">
+    <section id="presentation" class="d-flex border-top-hr">
       <div class="row featurette justify-content-center m-auto">
         <div class="col-md-3">
           <img src="../assets/img/presentation.jpeg" class="img-fluid"/>
@@ -68,7 +68,7 @@
       </div>
     </section>
 
-    <section id="concept" class="d-flex bkg-white">
+    <section id="concept" class="d-flex bkg-white border-top-hr">
       <div class="row px-0 justify-content-center m-auto">
         <div class="col-md-3">
           <div class="card mb-4 shadow-sm">
@@ -103,7 +103,7 @@
       </div>
     </section>
 
-    <section id="partenaires" class="py-6 py-md-8 border-bottom">
+    <section id="partenaires" class="py-6 py-md-8 border-bottom border-top-hr">
       <div class="container padding">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-2 mb-4 mb-md-0">

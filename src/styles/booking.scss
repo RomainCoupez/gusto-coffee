@@ -1,0 +1,55 @@
+.booking {
+    .nos-salles {
+      padding: 5em;
+    }
+
+    .text-grey {
+      width: 50%;
+      border-radius: 10px;
+      color: black;
+      background-color: #C8C8C8;
+      margin: 1em;
+      opacity: 0.5;
+    }
+
+    .kingSize {
+      font-size: 5em !important;
+      color: white;
+    }
+
+    .btn-orange {
+      background-color: var(--Color-Orange);
+      color: white;
+      border-color: var(--Color-Orange);
+    }
+
+    .btn-orange:hover {
+      background-color: white;
+      color: var(--Color-Orange);
+      border-color: var(--Color-Orange);
+    }
+
+    .pdt-block {
+      padding-top: 4em;
+    }
+
+    .bkg-concept  {
+      background-image: url('../../src/assets/img/about.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 50vh;
+    }
+
+    .nos-salles h3 {
+      text-align: left;
+    }
+
+    .line-up {
+      color: var(--Color-Bleu);
+    }
+
+    .encadrement {
+      border: 1px solid;
+    }
+}

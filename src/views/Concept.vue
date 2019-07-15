@@ -1,7 +1,7 @@
 <template>
 	<div class="concept">
 
-		<div id="semi-image-concept" class="bkg-concept d-flex">
+		<div id="semi-image-concept" class="bkg-concept d-flex ">
       <div class="container m-auto">
         <div class="row">
           <h1 class="m-auto kingSize">Notre Concept</h1>
@@ -9,8 +9,8 @@
       </div>
     </div>
 
-    <section id="presentation" class="d-flex">
-      <div class="container">
+    <section id="presentation" class="bkg-white d-flex border-top-hr">
+      <div class="container pdt-block">
         <div class="row pd-3">
           <div class="col m-auto">
               <h2 class="text-left txt-orange">Comme à la maison</h2>
@@ -35,10 +35,8 @@
       </div>
     </section>
 
-    <hr>
-
-    <section id="options">
-      <div class="container">
+    <section id="options" class="d-flex border-top-hr">
+      <div class="container pdt-block">
         <h2 class="">Notre Offre</h2>
         <div class="row pd-3">
           <div class="col m-auto">
@@ -82,10 +80,10 @@
       </div>
     </section>
 
-    <hr>
 
-    <section id="services" class="d-flex">
-      <div class="container">
+
+    <section id="services" class="bkg-white d-flex border-top-hr">
+      <div class="container pdt-block">
         <h2 class="margin-auto">Services inclus</h2>
         <h3 class="txt-orange">Concentrez-vous sur la croissance de votre entreprise, nous nous occupons du reste.</h3>
         <div class="row pd-3">

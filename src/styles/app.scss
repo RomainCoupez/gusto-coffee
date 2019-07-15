@@ -4,6 +4,7 @@
 @import 'src/styles/about.scss';
 @import 'src/styles/navbar.scss';
 @import 'src/styles/concept.scss';
+@import 'src/styles/booking.scss';
 
 
 :root {
@@ -17,4 +18,8 @@
 
 .txt-orange {
   color: var(--Color-Orange);
+}
+
+.border-top-hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }

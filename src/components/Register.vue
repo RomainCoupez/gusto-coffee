@@ -32,8 +32,8 @@ export default {
         .createUserWithEmailAndPassword(this.email, this.password)
         .then(
           function(user) {
-            this.$router.replace("/login");
-            alert("your account has been created");
+            //this.$router.replace("/login");
+            alert('Votre compte a été créé')
           },
           function(err) {
             alert("Ooops... " + err.message);
